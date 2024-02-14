@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Flexbox: Task 4</title>
+
+
+    <style>
+        body {
+            background-color: #fff;
+            color: black;
+            font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+            padding: 1em;
+            margin: 0;
+        }
+
+        ul {
+          width: 450px;
+          list-style:none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-flow: row wrap;
+        }
+
+        li {
+          background-color: rgb(0, 47, 54);
+          border: 2px solid #c480fb;
+          border-radius: .5em;
+          color: #fff;
+          padding: .5em;
+          margin: .5em;
+        }
+        li:nth-child(5),:nth-child(6),:nth-child(7),:nth-child(10){
+            flex: 0.295;
+        }
+        li:nth-child(8),:nth-child(9){
+            flex: 0.33;
+        }
+        li:nth-child(10){
+            flex:0.22;
+        }
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+  <ul>
+    <li>Edmund</li>
+    <li>greens</li>
+    <li>yarrow</li>
+    <li>ricebean</li>
+    <li>rutabaga</li>
+    <li>endive</li>
+    <li>cauliflower</li>
+    <li>sea lettuce</li>
+    <li>kohlrabi</li>
+    <li>amaranth</li>
+  </ul>
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #f0f0f0; /* Light gray background */
+    }
+    header {
+      background-color: #00bcd4; /* Cyan header */
+    }
+    .nav-links {
+      display: flex;
+      justify-content: center;
+    }
+    .nav-links a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .car {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .car-title {
+      color: #333333;
+    }
+    .car-image {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .car-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .car-price {
+      color: #008000; /* Green price */
+    }
+    .btn {
+      background-color: #00bcd4; /* Cyan button */
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #0097a7; /* Darker cyan on hover */
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .social-links a {
+      margin: 0 10px;
+      color: #333333;
+    }
+    .social-links a:hover {
+      color: #0097a7; /* Darker cyan on hover */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Eddys Car Kingdom</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://www.autotrader.com" target="_blank">Cars</a></li> <!-- Embed AutoTrader website -->
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container cars-section">
+    <div class="cars">
+      <div class="car">
+        <h2 class="car-title">Toyota Camry</h2>
+        <img class="car-image" src="images/toyota_camry.jpeg" alt="Toyota Camry">
+        <div class="car-details">
+          <span class="car-price">$25,000</span>
+          <button class="btn btn-buy" type="button">BUY NOW</button>
+        </div>
+      </div>
+
+      <div class="car">
+        <h2 class="car-title">Honda Accord</h2>
+        <img class="car-image" src="images/honda_accord.jpeg" alt="Honda Accord">
+        <div class="car-details">
+          <span

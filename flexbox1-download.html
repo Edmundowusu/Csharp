@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Flexbox: Task 1</title>
+
+
+    <style>
+        body {
+            background-color: #511414;
+            color: #1e1a4b;
+            font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+            padding: 1em;
+            margin: 0;
+        }
+
+        nav ul {
+          max-width: 700px;
+          list-style:none;
+          padding: 0;
+          margin: 0;
+        }
+
+        nav a:link,
+        nav a:visited {
+          background-color: #bec3c8;
+          border: 2px solid #1381a6;
+          border-radius: .5em;
+          color: #fff;
+          padding: .5em;
+          display: inline-block;
+          text-decoration: none;
+        }
+
+        nav ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(6, 135, 92);
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/products">Our Products</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+      </ul>
+      <h1>Edmund K. Owusu-Ansah</h1>
+    </nav>
+
+</body>
+
+</html>

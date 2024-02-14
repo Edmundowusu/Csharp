@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to My Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <style>
+    /* Custom styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    .nav__links {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .nav__links li {
+      display: inline;
+      margin-right: 20px;
+    }
+    .nav__links li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+    .nav__links li a:hover {
+      color: #ffd700; /* Change color on hover */
+    }
+    .nav__links li:last-child {
+      margin-right: 0;
+    }
+    .welcome {
+      text-align: center;
+      padding: 50px 0;
+    }
+    .welcome h1 {
+      font-size: 48px;
+      color: #ff4500; /* Fiery orange color */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
+    }
+    .welcome p {
+      font-size: 24px;
+      color: #666;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+    }
+    .navfooter_links {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .navfooter_links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+      transition: color 0.3s ease;
+    }
+    .navfooter_links a:hover {
+      color: #ffd700; /* Change color on hover */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Works</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><i class="fa-solid fa-sun" id="toggleDark"></i></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="welcome">
+    <h1>Welcome to My Homepage!</h1>
+    <p>Explore and discover exciting things...</p>
+  </div>
+
+  <footer>
+    <nav>
+      <ul class="navfooter_links">
+        <li><a href="https://github.com/EdmundOwusu" target="_blank"><i class="fa-brands fa-github-alt"></i></a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
